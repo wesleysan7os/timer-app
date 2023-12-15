@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
-export const AppContainer = styled.main`
+export const LayoutContainer = styled.main`
   max-width: 70rem;
+  height: calc(100vh - 10rem);
   margin: 5rem auto;
   border-radius: 8px;
 
